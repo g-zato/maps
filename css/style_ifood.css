@@ -1,0 +1,79 @@
+
+html, body {
+    min-height: 100vh
+}
+
+body {
+    background: linear-gradient(to bottom,  #001d3f 0%,#003c85 100%);
+    display:flex; 
+    flex-direction:column; 
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #999999;
+}
+
+#cabecalho { 
+    font-family: Raleway, "sans-serif";
+    height: 50px;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 700;
+}
+
+#titulo{
+    font-family: Montserrat;
+    font-size: 50px;
+    color: #ffffff;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+#feito_por {
+    font-family: Montserrat;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin: 10px auto 20px auto;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+#intro{
+    font-family: Raleway, Georgia;
+    font-size: 22px;
+    color: #ffffff;
+    max-width: 830px;
+    text-align: center;
+    margin: 0 auto 52px;
+        margin-top: 0px;
+        margin-bottom: 52px;
+    padding: 0 10px 0 10px;
+    margin-top: 16px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+#map_container {
+    width: 70%;
+    margin: auto;
+}
+
+#rodape{
+    font-family:  Raleway, "sans-serif";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: right;
+    clear: both;
+    position: relative;
+    margin-top: auto;
+}
+
