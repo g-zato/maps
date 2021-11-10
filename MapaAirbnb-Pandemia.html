@@ -145,33 +145,6 @@
             text-align: center;
         }
 
-        @media (max-width: 750px) {
-            .centered, .lefty, .righty, .fully {
-                width: 90vw;
-                margin: 0 auto;
-            }
-
-            .step div {
-            padding:  25px;
-        }
-
-            #titulo{
-            font-size: 22px;
-            line-height: 34px;
-            margin-bottom: 10px;
-        }
-
-            #intro{
-            font-size: 16px !important;
-            max-width: auto !important;
-            width: 90% !important; 
-        }
-
-        #map_container {
-            width: 100% !important;
-        }
-        }
-
         #cabecalho { 
     font-family: Raleway, "sans-serif";
     color: #ffffff;
@@ -224,6 +197,35 @@
         z-index: 10;
     }
 
+
+        @media (max-width: 750px) {
+            .centered, .lefty, .righty, .fully {
+                width: 90vw;
+                margin: 0 auto;
+            }
+
+            .step div {
+            padding:  25px;
+        }
+
+            #titulo{
+            font-size: 22px;
+            line-height: 34px;
+            margin-bottom: 10px;
+        }
+
+            #intro{
+            font-size: 16px !important;
+            max-width: auto !important;
+            width: 90% !important; 
+        }
+
+        #map_container {
+            width: 100% !important;
+        }
+        }
+
+       
         /* Fix issue on mobile browser where scroll breaks  */
         .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan, 
         .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
