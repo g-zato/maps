@@ -85,7 +85,7 @@
         .mapa-container {
             display:block;
             position: relative;
-            background-color:#3f0000;
+            background-color:#00113f;
             padding: 10vh 0;
         }
         .hidden {
@@ -125,13 +125,14 @@
         }
 
         .step div {
-            padding:  25px 50px;
+            padding:  25px 25px;
             line-height: 25px;
-            font-size: 15px;
-            color:#fc642d;
+            font-size: inherit;
+            color:#1a1a1a;
+            box-shadow: 0 0 20px 0 rgb(28 48 83 / 30%);
             background-color: #fffdfd;
             border-radius: 5%;
-            text-align: center;
+            
         }
 
         .step img {
@@ -141,6 +142,7 @@
         .step div h3{
             font-size: 2.2em;
             line-height: 1em;
+            text-align: center;
         }
 
         @media (max-width: 750px) {
@@ -148,11 +150,20 @@
                 width: 90vw;
                 margin: 0 auto;
             }
+
+            .step div {
+            padding:  25px 10px;
+        }
+
+            #titulo{
+            font-size: 24px;
+            line-height: 34px;
+            margin-bottom: 10px;
+        }
         }
 
         #cabecalho { 
     font-family: Raleway, "sans-serif";
-    height: 50px;
     color: #ffffff;
     font-size: 24px;
     text-align: left;
@@ -161,7 +172,9 @@
 
     #titulo{
         font-family: Montserrat;
-        font-size: 50px;
+        font-size: 36px;
+        line-height: 46px;
+        margin-bottom: 15px;
         color: #ffffff;
         max-width: 800px;
         text-align: center;
