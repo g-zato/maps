@@ -77,7 +77,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Matriz (Antes)',
-            image: 'https://raw.githubusercontent.com/g-zato/maps/main/img/escala.svg',
+            image: './img/escala.svg',
             description: 'Em Fevereiro de 2020, o valor médio da diária na região Matriz era de R$ 135,00 aproximadamente.',
             location: {
                 center: [-49.27002, -25.42894],
@@ -107,7 +107,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Matriz (Depois)',
-            image: 'https://raw.githubusercontent.com/g-zato/maps/main/img/escala.svg',
+            image: './img/escala.svg',
             description: 'Em Novembro de 2020, o número total de airbnbs na região Matriz reduziu mais de 30% se comparado a Fevereiro do mesmo ano! Enquanto isso, o valor médio da diária teve uma redução de cerca de 10% em meados de Agosto, mas em Novembro subiu por volta de 27%, demonstrando a necessidade do mercado de "compensar" o que foi perdido na pandemia.',
             location: {
                 center: [-49.27002, -25.42894],
