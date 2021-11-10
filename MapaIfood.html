@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <!-- data -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+
+<body onload="draw_maps(data.regiao, data.path, data.valor, pal);">
+    <!-- data -->
     <script src="https://cdn.rawgit.com/g-zato/maps/main/dados/dados_ifood.js" type="text/javascript" charset="utf-8"></script>
     <!--js files-->
     <script src="https://cdn.rawgit.com/g-zato/maps/main/js/cool_maps.js" type="text/javascript" charset="utf-8"></script>
@@ -10,10 +13,6 @@
     <script type="text/javascript">
         pal = ["#0069e6", "#024da6", "#013a7d", "#012e63", "#001d3f"]
     </script>
-    
-    </head>
-
-<body onload="draw_maps(data.regiao, data.path, data.valor, pal);">
 
 <div class="mapa-container">
 
