@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://cdn.rawgit.com/g-zato/maps/main/dados/dados_airbnb.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.rawgit.com/g-zato/maps/main/js/cool_maps.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.rawgit.com/g-zato/maps/main/js/raphael.min.js" type="text/javascript" charset="utf-8"></script>  
+    <script type="text/javascript">
+        pal = ["#fa828b", "#ed5f6a", "#de3a47", "#c41321", "#87000b"]
+    </script>
+</head>
+
+<body onload="draw_maps(data.regiao, data.path, data.valor, pal);">
+
+    <div id="titulo">
+        Airbnb em Curitiba
+    </div>
+
+    <div id="feito_por">
+        Por Arthur Rocha <a href="https://www.linkedin.com/in/arthur-cesar-rocha/">  <i class='fab fa-linkedin symbol'></i> </a> | Maio-2020 
+    </div>
+
+    <div id="intro">
+        A equipe da <b>Isket</b> analisou as ofertas de estadias pelo aplicativo Airbnb dentro da cidade de Curitiba, separado pelas
+        10 regionais definidas pelo IBGE.
+    </div>
+
+    <div id="map_container"> </div>
+
+</body>
+
+
+</html>
